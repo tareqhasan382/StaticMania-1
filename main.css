@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400; */
+  }
+@font-face {
+    font-family: 'BOSKA';
+    src: url('./fonts/Boska-Variable.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BOSKA-ITALIC';
+    src: url('./fonts/Boska-VariableItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SWITZER';
+    src: url('./fonts/Switzer-Variable.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'POPPINS';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+}
